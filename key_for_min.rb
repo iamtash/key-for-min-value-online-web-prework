@@ -5,7 +5,7 @@ require "pry"
 def key_for_min_value(name_hash)
 
 
-
+  binding.pry
   name_hash_array = name_hash.collect {|key, value| value}
 
   num = name_hash_array[0]
