@@ -5,7 +5,7 @@ hash = {:blake => 500, :ashley => 2, :adam => 1}
 
 def key_for_min_value(name_hash)
 
-
+  binding.pry
 
   name_hash_array = name_hash.collect {|key, value| value}
 
@@ -21,5 +21,5 @@ def key_for_min_value(name_hash)
 
 
 end
-binding.pry
+
 key_for_min_value(hash)
