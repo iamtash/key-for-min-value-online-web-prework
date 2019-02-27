@@ -10,7 +10,7 @@ def key_for_min_value(name_hash)
   num = name_hash_array[0]
 
   name_hash_array.each do |value|
-    num = value if value < num 
+    num = value if value < num
   end
 
   name_hash.collect do |key, value|
