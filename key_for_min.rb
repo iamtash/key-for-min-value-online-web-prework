@@ -6,8 +6,6 @@ require "pry"
 
 def key_for_min_value(name_hash)
 
-
-
   name_hash_array = name_hash.collect {|key, value| value}
 
   num = name_hash_array[0]
@@ -16,11 +14,9 @@ def key_for_min_value(name_hash)
     num = value if value < num
   end
 
-
   name_hash.collect do |key, value|
     key if value == num
   end
-
 
 end
 
